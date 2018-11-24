@@ -1,4 +1,4 @@
-## R Programming Quiz 1 (JHU) Coursera
+## R Programming Quiz 1 Coursera
 
 Question 1
 ----------
