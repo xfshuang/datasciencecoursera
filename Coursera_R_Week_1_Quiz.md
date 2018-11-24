@@ -12,7 +12,7 @@ Question 2
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
 
 ### Answer
-<br>The freedom to sell the software for any price.
+The freedom to sell the software for any price.
 <br>The freedom to prevent users from using the software for undesirable purposes.
 <br>The freedom to restrict access to the source code for the software.
 
@@ -28,13 +28,13 @@ Question 3
 In R the following are all atomic data types: (Select all that apply)
 
 ### Answer
-<br>array
+array
 <br>data frame
 <br>table
 <br>list
 <br>matrix
 ### Explaination 
-<br>character
+character
 <br>numeric
 <br>logical (True,False)
 <br>interger
@@ -121,7 +121,7 @@ Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all e
 
 ### Answer
 x[x > 10] <- 4
-x[x >= 11] <- 4
+<br>x[x >= 11] <- 4
 
 ```R
 x <- c(17, 14, 4, 5, 13, 12, 10)
@@ -210,7 +210,6 @@ nrow(sub)
 
 ```
 
-
 Question 17
 -----------
 What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
@@ -218,8 +217,6 @@ What is the mean of the Ozone column in this dataset? Exclude missing values (co
 ### Answer
 42.1
 
-### Explanation
-The 'mean' function can be used to calculate the mean.
 
 ```R
 mean(data$Ozone, na.rm=TRUE)
@@ -244,7 +241,6 @@ What is the mean of "Temp" when "Month" is equal to 6?
 ### Answer
 79.1
 
-### Explanation
 
 ```R
 sub <- subset(hw1, Month == 6, select = Temp)
@@ -258,7 +254,6 @@ What was the maximum ozone value in the month of May (i.e. Month = 5)?
 ### Answer
 115
 
-### Explantion
 
 ```R
 sub <- subset(quiz_data, Month == 5 & !is.na(Ozone), select = Ozone)
